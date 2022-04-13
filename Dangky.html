@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nhà Sách ABC</title>
+
+<link rel="stylesheet" type="text/css" href="Script/Dangky.css">
+<script type="text/javascript" src="Script/DangkyJV.js"></script>
+
+</head>
+
+<body>
+     <header>
+        <div id="logo">
+            <img src="Images/LOGO.jpg">
+        </div>
+        <div id="dn">
+            <img src="Images/dangnhap.jpg">
+            <a href="Dangnhap.html">Đăng nhập |</a>
+            <a href="Dangky.html">Đăng ký</a>
+            <img src="Images/Giohang.gif">
+            <a href="">Giỏ hàng(Trống)</a>
+        </div>
+     </header>
+     <nav>
+        <div id="subnav">
+        <ul type="square">
+            <li><a href="">TRANG CHỦ</a></li>
+            <li><a href="GioiThieu.html">GIỚI THIỆU</a></li>
+            <li><a href="">LIÊN HỆ</a></li>
+        </ul>
+        <div>
+             <input type="text" size="36" name="tsearch" placeholder="Hãy nhập tên sách cần tìm...">
+             <input type="submit" value="Tìm sách" title="Tìm sách">
+        </div>
+        </div>
+     </nav>
+     <div id="body">
+        
+         <article>
+             <aside id="left">
+                <div>
+                 <p><font size="3">SÁCH THEO CHỦ ĐỀ</font></p>
+                 <ul type="square">
+                      <li><a href="#">Ngoại ngữ</a></li>
+                      <li><a href="#">Công nghệ thông tin</a></li>
+                      <li><a href="#">Luật</a></li>
+                      <li><a href="#">Văn học</a></li>
+                      <li><a href="#">Khoa học kỹ thuật</a></li>
+                      <li><a href="#">Nông nghiệp</a></li>
+                      <li><a href="#">Lịch sử, địa lý</a></li>
+                      <li><a href="#">Kinh tế</a></li>
+                      <li><a href="#">Nghệ thuật sống</a></li>
+                 </ul>
+                </div>
+                <div> 
+                 <p><font size="3">SÁCH THEO NHÀ SUẤT BẢN</font></p>
+                 <ul type="square">
+                       <li><a href="#">Nhà xuất bản trẻ</a></li>
+                       <li><a href="#">NXB Thống kê</a></li>
+                       <li><a href="#">Kim đồng</a></li>
+                       <li><a href="#">Đại học quốc gia</a></li>
+                       <li><a href="#">Văn hóa nghệ thuật</a></li>
+                       <li><a href="#">Văn hóa</a></li>
+                       <li><a href="#">Lao động-Xã hội</a></li>
+                       <li><a href="#">Khoa học & Kỹ thuật</a></li>
+                  </ul>
+                 </div> 
+             </aside>
+             <section>
+             <div id="dangky">
+               <p>ĐĂNG KÝ THÀNH VIÊN</p>
+               <form action="#" name="dangky" method="post">
+    
+     <fieldset id="fs1">
+        <legend><b>Thông tin cá nhân</b></legend>
+           <table id="thongtincn">
+              <tr>
+                 <td>Họ và tên:</td>
+                 <td><input id="hoten" type="text" name="txtHoTen"></td>
+              </tr>
+              <tr>
+                 <td>Ngày sinh:</td>
+                 <td>
+                    <select name="Ngày">
+                       <option value="01" selected>01</option>
+                       <option value="02">02</option>
+                       <option value="03">03</option>
+                       <option value="04">04</option>
+                       <option value="05">05</option>
+                       <option value="06">06</option>
+                       <option value="07">07</option>
+                       <option value="08">08</option>
+                       <option value="09">09</option>
+                       <option value="10">10</option>
+                       <option value="11">11</option>
+                       <option value="12">12</option>
+                       <option value="13">13</option>
+                       <option value="14">14</option>
+                       <option value="15">15</option>
+                       <option value="16">16</option>
+                       <option value="17">17</option>
+                       <option value="18">18</option>
+                       <option value="19">19</option>
+                       <option value="20">20</option>
+                       <option value="21">21</option>
+                       <option value="22">22</option>
+                       <option value="23">23</option>
+                       <option value="24">24</option>
+                       <option value="25">25</option>
+                       <option value="26">26</option>
+                       <option value="27">27</option>
+                       <option value="28">28</option>
+                       <option value="29">29</option>
+                       <option value="30">30</option>
+                       <option value="31">31</option>
+                    </select>
+                    Tháng
+                    <select class="thang" name="Tháng">
+                       <option value="01" selected>01</option>
+                       <option value="02">02</option>
+                       <option value="03">03</option>
+                       <option value="04">04</option>
+                       <option value="05">05</option>
+                       <option value="06">06</option>
+                       <option value="07">07</option>
+                       <option value="08">08</option>
+                       <option value="09">09</option>
+                       <option value="10">10</option>
+                       <option value="11">11</option>
+                       <option value="12">12</option>
+                    </select>
+                    Năm <input id="nam" type="text" name="txtNam">
+                 </td>
+              </tr>
+              <tr>
+                 <td>Giới tính:</td>
+                 <td>
+                    <input type="radio" name="radGioiTinh" value="Nam" checked>Nam
+                    <input class="gt" type="radio" name="radGioiTinh" value="Nữ">Nữ
+                 </td>
+              </tr>
+              <tr>
+                 <td>Địa chỉ:</td>
+                 <td><textarea></textarea></td>
+              </tr>
+              <tr>
+                 <td>Điện thoại:</td>
+                 <td><input type="tel" name="tel"></td>
+              </tr>
+              <tr>
+                 <td>Email:</td>
+                 <td><input id="email" type="email" name="txtEmail" required></td>
+              </tr>
+           </table>
+     </fieldset>
+     <fieldset id="fs2">
+        <legend><b>Thông tin đăng nhập</b></legend>
+           <table id="thongtindn">
+              <tr>
+                 <td>Tên đăng nhập:</td>
+                 <td><input id="tendangnhap" type="text" name="txtTenDangNhap" required></td>
+              </tr>
+              <tr>
+                 <td>Mật khẩu:</td>
+                 <td><input id="matkhau" type="password" name="txtMatKhau" required></td>
+              </tr>
+              <tr>
+                 <td>Nhập lại mật khẩu:</td>
+                 <td><input id="nhaplaimatkhau" type="password" name="txtNhapLaiMatKhau" required></td>
+              </tr>
+           </table>  
+      </fieldset>
+      <div id="botton">
+       <p id="n" align="center"><input type="submit" value="Đăng ký" onClick="return KiemTraThongTin()">
+       <input type="reset" value="Hủy"></p>
+      </div>
+  </form>
+   </div>
+           
+             </section>
+             <aside id="right">
+                <div id="sachbannhieu">
+                  <p>SÁCH BÁN NHIỀU</p>
+                  <marquee direction="up" scrollamount="3" scrolldelay="100" onMouseMove="stop()" onMouseOut="start()">
+                        <p><a href="#"><img src="Images/Sach/TH008.jpg">Thủ Thuật Lập Trình Visual Basic 6</a></p>
+                        <p><a href="#"><img src="Images/Sach/TH005.jpg">Hướng Dẫn Tự Học Photoshop CS (Photoshop 6.0)</a></p>
+                        <p><a href="#"><img src="Images/Sach/TH002.jpg">Căn Bản Về Photoshop CS Tinh Chỉnh Và Sử Lý Màu</a></p>
+                        <p><a href="#"><img src="Images/Sach/THCB.jpg">Tin Học Cơ Bản</a></p>
+                  </marquee>
+                 </div>
+                 <div id="lienketwebsite"> 
+                  <p>LIÊN KẾT WEBSITE</p>
+                    <select onChange="windown.open(this.opsions[this.selectedIndex].value,'_blank')">
+                        <option selected>--- Chọn trang liên kết---</option>
+                        <option value="http://www.tdmu.edu.vn"> ĐH Thủ Dầu Một</option>
+                        <option value="http://www.iteee.tdmu.edu.vn">Khoa KT-CN</option>
+                    </select>
+                  </div>  
+                  <div id="thongketruycap">
+                  <p>THỐNG KÊ TRUY CẬP</p>
+                  <h4>Tổng truy cập: 160</h4>
+                  <h4>Đang online: 3</h4>
+                  </div>
+             </aside>
+         </article>
+     </div>
+     <footer>
+           <p>&copy;2016 - Nhà sách ABC. Allright Reserved</p>
+           <p>Website được phát triển để sử dụng làm bài tập thực hành môn Thiết kế và Lập trình Web</p>
+           <p>Email: abc.thudaumotunivercity@gmail.com</p>
+     </footer>
+</body>
+</html>
+
+</body>
+</html>

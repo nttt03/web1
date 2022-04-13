@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Untitled Document</title>
+	<script Language="JavaScript">
+		d = new Date();
+		thu = d.getDay() ; ngay= d.getDate();
+		ngay= ((ngay< 10) ? '0' : '') + ngay;
+		thang= d.getMonth()+1;
+		thang= ((thang< 10) ? '0' : '') + thang;
+		nam= 1900+d.getYear();
+		gio = d.getHours();
+		gio=((gio<10) ? '0' : '') + gio;
+		phut = d.getMinutes();
+		phut= ((phut< 10) ? '0' : '') + phut;
+		giay = d.getSeconds();
+		if (giay < 10) giay='0'+giay;
+		if (thu == 0) thu = " Chủ nhật";
+		if (thu == 1) thu = " Thứ hai";
+		if (thu == 2) thu = " Thứ ba";
+		if (thu == 3) thu = " Thứ tư";
+		if (thu == 4) thu = " Thứ năm";
+		if (thu == 5) thu = " Thứ sáu";
+		if (thu == 6) thu = " Thứ bảy";
+ 	</script>
+</head>
+<body>
+
+	<script Language="JavaScript">
+		document.write("<b>" +"Bây giờ là: " + gio + ":" + phut + ":" + giay +"<br>" ) ;
+		document.write("<font color=blue> Hôm nay là:" + thu + ", ngày " + ngay + " tháng " + thang + " năm " + nam + "</font></b>");
+	</script>
+</body>
+</html>
